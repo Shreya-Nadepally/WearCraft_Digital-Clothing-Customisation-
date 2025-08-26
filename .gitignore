@@ -1,9 +1,42 @@
-# Node 
+# Node.js dependencies
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
+# Build outputs
+dist/
+build/
+
+# Local env files
 .env
+.env.local
+.env.*.local
 
-# Build files
-frontend/build/
+# Logs
+logs
+*.log
+*.log.*
+*.out
+*.pid
+*.gz
 
-.dist
+# Editor/OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+*.lcov
+
+# Cache
+.cache/
+.temp/
+vite.config.ts.timestamp*
